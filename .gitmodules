@@ -1,0 +1,6 @@
+[submodule "dtw_intersection"]
+	path = dtw_intersection
+	url = https://github.com/JannisKre/dtw_intersection.git
+[submodule "soft_dtw_balls"]
+	path = soft_dtw_balls
+	url = https://github.com/JannisKre/SoftDtw.git
