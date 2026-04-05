@@ -1,8 +1,8 @@
-# VC Dimension of DTW Ball Hypothesis Classes
+# VC Dimension of Set Systems of Sequences
 
 This repository accompanies the master's thesis
 
-> **"VC Dimension of DTW Ball Hypothesis Classes"**
+> **"VC Dimension of Set Systems of Sequences"**
 > Jannis Kremer, 2026
 
 It contains all computational experiments, solvers, and visualisations used in the thesis.
