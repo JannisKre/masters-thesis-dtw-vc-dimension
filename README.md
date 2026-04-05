@@ -15,16 +15,27 @@ The **Dynamic Time Warping (DTW)** distance is a widely used similarity measure 
 
 The central object is the **range space** $\mathcal{R}^1_{k,m}$, whose hypotheses are DTW balls
 
-$$b_{\mathrm{dtw}}(P, \Delta) = \{ Q \in \mathbb{R}^m : \mathrm{DTW}(P, Q)^2 \leq \Delta \}$$
+$$b_{\mathrm{dtw}}(P, \Delta) = \{ Q \in \mathbb{R}^m : \mathrm{dtw}(P, Q) \leq \Delta \}$$
 
 parameterised by a centre curve $P \in \mathbb{R}^k$ and radius $\Delta \geq 0$. The main question is: what is $\mathrm{VCdim}(\mathcal{R}^1_{k,m})$?
 
 ### Key theoretical results (thesis)
 
-- **Upper bound:** $\mathrm{VCdim}(\mathcal{R}^1_{k,m}) = O(km)$ (via a Warren-type sign-count argument over the $|\mathcal{W}^*_{k,m}|$ optimal warping paths).
-- **Lower bound $m=2$ fixed:** $\mathrm{VCdim}(\mathcal{R}^1_{k,2}) \geq k-1$.
-- **Lower bound $m=3$ fixed:** $\mathrm{VCdim}(\mathcal{R}^1_{k,3}) \geq k-2$.
-- **Computational evidence** suggests these lower bounds are not tight (see results below).
+The following bounds are established for one-dimensional sequences ($d=1$):
+
+| Regime | Lower bound | Upper bound |
+|---|---|---|
+| $k \asymp m$ | $\Omega(k)$ | $O(k^2)$ |
+| $k$ fixed | $\Omega(\log m)$ | $O(\log m)$ — tight up to constants |
+| $m$ fixed | $\Omega(k)$ | $O(k \log k)$ |
+
+The upper bounds build on the approach of Brüning and Driemel; the thesis contributes a sharper warping-path count in the balanced regime, yielding the improved $O(k^2)$ term. The main lower-bound constructions are:
+
+- **$m=2$ fixed:** $\mathrm{VCdim}(\mathcal{R}^1_{k,2}) \geq k-1$ (explicit shattering construction).
+- **$k=2$ fixed:** $\mathrm{VCdim}(\mathcal{R}^1_{2,m}) \geq \lfloor \log_2(m-1) \rfloor$ (reduction argument).
+- These generalise to arbitrary fixed $k$ or fixed $m$ via further reduction arguments.
+- For **soft DTW**: $\mathrm{VCdim}(\mathcal{R}^{1,\gamma}_{k,m}) = O(k^3 m^2)$.
+- **Computational evidence** suggests the lower bounds for $k \asymp m$ are not tight (see results below).
 
 ---
 
