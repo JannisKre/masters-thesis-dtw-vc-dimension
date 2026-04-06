@@ -58,13 +58,20 @@ For fixed $k$ and $m$, the problem is solvable in polynomial time in $s$ (degree
 masters-thesis-dtw-vc-dimension/
 ├── dtw_intersection/       ← Submodule: exact QP solver (Gurobi)
 ├── soft_dtw_balls/         ← Submodule: soft-DTW gradient descent solver (PyTorch)
-└── visualizations/         ← Plotting notebooks (matplotlib)
-    ├── cost_function/      # DTW cost function geometry
-    ├── dtw_balls/          # DTW ball shapes and shattering witnesses
-    ├── graphs/             # Graph-based DTW structure
-    ├── vc_dimension/       # VC dimension experimental plots
-    ├── warping_paths/      # Warping path visualisations
-    └── number_of_paths.ipynb
+├── visualizations/         ← Plotting notebooks (matplotlib)
+│   ├── cost_function/      # DTW cost function geometry
+│   ├── dtw_balls/          # DTW ball shapes and shattering witnesses
+│   ├── graphs/             # Graph-based DTW structure
+│   ├── vc_dimension/       # VC dimension experimental plots
+│   ├── warping_paths/      # Warping path visualisations
+│   └── number_of_paths.ipynb
+├── experiments/            ← All thesis result data, organised by figure (Ch. 5)
+│   ├── fig5.4_qp_fixed_m2_thesis/    # QP results: m=2 fixed, k varies
+│   ├── fig5.5_qp_fixed_k2_thesis/    # QP results: k=2 fixed, m varies
+│   ├── fig5.6_qp_server/             # HPC QP sweep (m=2 and m=3)
+│   ├── fig5.7_softdtw_k_equals_m/    # Soft-DTW witnesses on k=m diagonal
+│   └── fig5.8_softdtw_growth_function/ # Growth function Π(s) for k=m=3
+└── test_solvers.ipynb      ← Interactive notebook: test QP, soft-DTW, and witness validation
 ```
 
 ### Cloning (with submodules)
@@ -199,6 +206,56 @@ Capacity stagnates near 5 for tested values of $m$ (theory: $\Theta(\log m)$):
 | 3 | 6 | 6 |
 | 4 | 8 | 6 |
 | 5–9 | — | ~$2k$ |
+
+---
+
+## Experiments Data (`experiments/`)
+
+The `experiments/` folder contains **copies of every result CSV and JSON** used
+to produce the Chapter 5 figures, organised by figure number for convenient
+browsing. The authoritative copies live in the submodules; this folder provides
+a figure-centric index.
+
+> ⚠️ **Notation reminder:** CSV file names and column headers follow **code convention**
+> (`k` = query length = thesis $m$; `m` = center length = thesis $k$). Each
+> sub-folder README translates file names into thesis notation.
+
+| Figure | Folder | Solver | Thesis parameters |
+|--------|--------|--------|-------------------|
+| 5.4 | `fig5.4_qp_fixed_m2_thesis/` | Exact QP | $m=2$ fixed, $k$ varies |
+| 5.5 | `fig5.5_qp_fixed_k2_thesis/` | Exact QP | $k=2$ fixed, $m$ varies |
+| 5.6 | `fig5.6_qp_server/`           | Exact QP (HPC) | $m \in \{2,3\}$, $k$ varies |
+| 5.7 | `fig5.7_softdtw_k_equals_m/`  | Soft-DTW GD | $k=m \in \{1,\ldots,9\}$ |
+| 5.8 | `fig5.8_softdtw_growth_function/` | Soft-DTW GD | Growth function $\Pi(s)$, $k=m=3$ |
+
+Each sub-folder contains a `README.md` with a notation translation table, CSV
+column schema, the exact command used to generate the data, and links back to
+the relevant solver.
+
+---
+
+## Interactive Test Notebook (`test_solvers.ipynb`)
+
+`test_solvers.ipynb` is a self-contained notebook that lets you exercise all
+major solver components without diving into the submodule source code.
+
+```bash
+# From the repo root (submodules checked out):
+pip install numpy torch pandas matplotlib gurobipy  # gurobipy only for QP cells
+jupyter notebook test_solvers.ipynb
+```
+
+### Notebook sections
+
+| Section | Cells | What is tested | Requires |
+|---------|-------|----------------|----------|
+| **1 — Exact QP Solver** | 1a–1c | Single-subset MIQCP separation (`dtw_exclusive_min_delta`); full shattering test (`test_dtw_shattering`); sequential capacity estimation (`estimate_shattering_capacity`) | Gurobi |
+| **2 — Soft-DTW Gradient Descent** | 2a–2c | Single-subset ball optimisation (`optimize_ball_robust`); full shattering check (`check_shattering`); sequential capacity on $k=m=3$ diagonal (`sequential_capacity_estimation`) | PyTorch |
+| **3 — Witness Validation** | 3a–3d | Load any experiment CSV (`load_point_set_from_csv`); visualise separation gaps; validate a custom $(P, \Delta, I)$ triple; full certification of the 9-point $k=7, m=2$ flagship result | PyTorch |
+
+Every QP cell checks the `HAS_GUROBI` flag and prints a friendly skip message
+when Gurobi is unavailable, so the soft-DTW and validation sections run
+independently.
 
 ---
 
