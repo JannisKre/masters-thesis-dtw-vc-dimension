@@ -1,0 +1,3149 @@
+{
+  "T": 5,
+  "best_run_idx": 0,
+  "final_report": {
+    "failed_subsets": [],
+    "is_shattered": true,
+    "num_feasible": 8,
+    "num_infeasible": 0,
+    "num_subsets": 8,
+    "results": {
+      "frozenset()": {
+        "delta": 0.0,
+        "feasible": true,
+        "inside_dtws": [],
+        "outside_dtws": [
+          0.27434692332181954,
+          0.38197403152133147,
+          0.3412734225092375
+        ],
+        "subset": [],
+        "witness": [
+          -0.2060041983878853,
+          -0.995878617513335
+        ]
+      },
+      "frozenset({0, 1, 2})": {
+        "delta": 0.029720216909651837,
+        "feasible": true,
+        "inside_dtws": [
+          0.029720216909651837,
+          0.029720216909651594,
+          0.0025788306114932543
+        ],
+        "outside_dtws": [],
+        "subset": [
+          0,
+          1,
+          2
+        ],
+        "witness": [
+          0.33177209350569026,
+          -0.896329045367339
+        ]
+      },
+      "frozenset({0, 1})": {
+        "delta": 0.11898510551612144,
+        "feasible": true,
+        "inside_dtws": [
+          0.11898510551527261,
+          0.11898510551612144
+        ],
+        "outside_dtws": [
+          0.11908510549955596
+        ],
+        "subset": [
+          0,
+          1
+        ],
+        "witness": [
+          0.03404889603781412,
+          -0.8645433761306008
+        ]
+      },
+      "frozenset({0, 2})": {
+        "delta": 0.006036012640777587,
+        "feasible": true,
+        "inside_dtws": [
+          0.006036012640777587,
+          0.006036012640777524
+        ],
+        "outside_dtws": [
+          0.07362380944211178
+        ],
+        "subset": [
+          0,
+          2
+        ],
+        "witness": [
+          0.343040236865746,
+          -0.996102437546966
+        ]
+      },
+      "frozenset({0})": {
+        "delta": 4.025567611880933e-07,
+        "feasible": true,
+        "inside_dtws": [
+          4.025567611880933e-07
+        ],
+        "outside_dtws": [
+          0.11888896070264926,
+          0.024205777981902692
+        ],
+        "subset": [
+          0
+        ],
+        "witness": [
+          0.31220014176783256,
+          -1.067627156361856
+        ]
+      },
+      "frozenset({1, 2})": {
+        "delta": 0.010142809000110211,
+        "feasible": true,
+        "inside_dtws": [
+          0.010142809000110211,
+          0.010142809000110041
+        ],
+        "outside_dtws": [
+          0.06127154631084414
+        ],
+        "subset": [
+          1,
+          2
+        ],
+        "witness": [
+          0.3610130442463542,
+          -0.8248844786243131
+        ]
+      },
+      "frozenset({1})": {
+        "delta": 2.5822695391463943e-24,
+        "feasible": true,
+        "inside_dtws": [
+          2.5822695391463943e-24
+        ],
+        "outside_dtws": [
+          0.1188792181802059,
+          0.04056965665273314
+        ],
+        "subset": [
+          1
+        ],
+        "witness": [
+          0.34943480829153256,
+          -0.7248407209381712
+        ]
+      },
+      "frozenset({2})": {
+        "delta": 7.312087715977382e-07,
+        "feasible": true,
+        "inside_dtws": [
+          7.312087715977382e-07
+        ],
+        "outside_dtws": [
+          0.023905025958672197,
+          0.04091387729962888
+        ],
+        "subset": [
+          2
+        ],
+        "witness": [
+          0.3738780542228623,
+          -0.9256301754105708
+        ]
+      }
+    }
+  },
+  "history": [
+    {
+      "attempts": [
+        {
+          "attempt": 1,
+          "is_shattered": true,
+          "num_failed_subsets": 0,
+          "point": [
+            0.3128323241608392,
+            -1.0676810282762499
+          ]
+        }
+      ],
+      "d": 1,
+      "success": true
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 1,
+          "is_shattered": true,
+          "num_failed_subsets": 0,
+          "point": [
+            0.3494348082911523,
+            -0.7248407209366099
+          ]
+        }
+      ],
+      "d": 2,
+      "success": true
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 1,
+          "is_shattered": true,
+          "num_failed_subsets": 0,
+          "point": [
+            0.37383874269001655,
+            -0.9247759720536451
+          ]
+        }
+      ],
+      "d": 3,
+      "success": true
+    },
+    {
+      "attempts": [
+        {
+          "attempt": 1,
+          "is_shattered": false,
+          "num_failed_subsets": 1,
+          "point": [
+            -0.777502597769596,
+            0.8015228616350416
+          ]
+        },
+        {
+          "attempt": 2,
+          "is_shattered": false,
+          "num_failed_subsets": 1,
+          "point": [
+            0.06257779942379653,
+            1.068295152970133
+          ]
+        },
+        {
+          "attempt": 3,
+          "is_shattered": false,
+          "num_failed_subsets": 1,
+          "point": [
+            -0.7867821299497731,
+            0.33763420471255795
+          ]
+        },
+        {
+          "attempt": 4,
+          "is_shattered": false,
+          "num_failed_subsets": 1,
+          "point": [
+            0.9707041677507445,
+            -0.05516907422194216
+          ]
+        },
+        {
+          "attempt": 5,
+          "is_shattered": false,
+          "num_failed_subsets": 1,
+          "point": [
+            -0.47531380673638346,
+            0.8533787120169845
+          ]
+        },
+        {
+          "attempt": 6,
+          "is_shattered": false,
+          "num_failed_subsets": 1,
+          "point": [
+            -0.8341458621069806,
+            -0.6857615332233628
+          ]
+        }
+      ],
+      "d": 4,
+      "success": false
+    }
+  ],
+  "k": 2,
+  "m": 2,
+  "runs": [
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              0.27434692332181954,
+              0.38197403152133147,
+              0.3412734225092375
+            ],
+            "subset": [],
+            "witness": [
+              -0.2060041983878853,
+              -0.995878617513335
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 0.029720216909651837,
+            "feasible": true,
+            "inside_dtws": [
+              0.029720216909651837,
+              0.029720216909651594,
+              0.0025788306114932543
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              0.33177209350569026,
+              -0.896329045367339
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.11898510551612144,
+            "feasible": true,
+            "inside_dtws": [
+              0.11898510551527261,
+              0.11898510551612144
+            ],
+            "outside_dtws": [
+              0.11908510549955596
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.03404889603781412,
+              -0.8645433761306008
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.006036012640777587,
+            "feasible": true,
+            "inside_dtws": [
+              0.006036012640777587,
+              0.006036012640777524
+            ],
+            "outside_dtws": [
+              0.07362380944211178
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              0.343040236865746,
+              -0.996102437546966
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 4.025567611880933e-07,
+            "feasible": true,
+            "inside_dtws": [
+              4.025567611880933e-07
+            ],
+            "outside_dtws": [
+              0.11888896070264926,
+              0.024205777981902692
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              0.31220014176783256,
+              -1.067627156361856
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.010142809000110211,
+            "feasible": true,
+            "inside_dtws": [
+              0.010142809000110211,
+              0.010142809000110041
+            ],
+            "outside_dtws": [
+              0.06127154631084414
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              0.3610130442463542,
+              -0.8248844786243131
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 2.5822695391463943e-24,
+            "feasible": true,
+            "inside_dtws": [
+              2.5822695391463943e-24
+            ],
+            "outside_dtws": [
+              0.1188792181802059,
+              0.04056965665273314
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              0.34943480829153256,
+              -0.7248407209381712
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 7.312087715977382e-07,
+            "feasible": true,
+            "inside_dtws": [
+              7.312087715977382e-07
+            ],
+            "outside_dtws": [
+              0.023905025958672197,
+              0.04091387729962888
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              0.3738780542228623,
+              -0.9256301754105708
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.3128323241608392,
+                -1.0676810282762499
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.3494348082911523,
+                -0.7248407209366099
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.37383874269001655,
+                -0.9247759720536451
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.777502597769596,
+                0.8015228616350416
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.06257779942379653,
+                1.068295152970133
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.7867821299497731,
+                0.33763420471255795
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.9707041677507445,
+                -0.05516907422194216
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.47531380673638346,
+                0.8533787120169845
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.8341458621069806,
+                -0.6857615332233628
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 42,
+      "shattered_set": [
+        [
+          0.3128323241608392,
+          -1.0676810282762499
+        ],
+        [
+          0.3494348082911523,
+          -0.7248407209366099
+        ],
+        [
+          0.37383874269001655,
+          -0.9247759720536451
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              98.2181708379154,
+              81.96601076587129,
+              93.66067550383461
+            ],
+            "subset": [],
+            "witness": [
+              -9.511284221998066,
+              -0.475539431418105
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 1.0569825665132269,
+            "feasible": true,
+            "inside_dtws": [
+              1.0569825665132269,
+              1.0569825665127155,
+              0.9680041199735094
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              -0.08323696691072312,
+              -0.09209049922006309
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 1.095141369790926,
+            "feasible": true,
+            "inside_dtws": [
+              1.095141369790926,
+              1.095141369790926
+            ],
+            "outside_dtws": [
+              1.0952413697909258
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.09732526268821767,
+              -0.16662966324576828
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.014257174190896983,
+            "feasible": true,
+            "inside_dtws": [
+              0.014257174190896983,
+              0.014257174190896933
+            ],
+            "outside_dtws": [
+              4.096084187834617
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              0.19013881985780126,
+              0.8688745325459113
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 1.8053335770646066e-23,
+            "feasible": true,
+            "inside_dtws": [
+              1.8053335770646066e-23
+            ],
+            "outside_dtws": [
+              4.227930266057605,
+              0.05702869436870622
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              0.3090655092101784,
+              0.8582154166541338
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.998236171098641,
+            "feasible": true,
+            "inside_dtws": [
+              0.9982361710679312,
+              0.998236171098641
+            ],
+            "outside_dtws": [
+              1.1442433091420345
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              -0.20216146021189985,
+              -0.08140700479047296
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 9.290255230859645e-07,
+            "feasible": true,
+            "inside_dtws": [
+              9.290255230859645e-07
+            ],
+            "outside_dtws": [
+              4.229340741450864,
+              3.993895681817043
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              -0.47650291487759583,
+              -1.042369491349937
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 9.46003721678333e-07,
+            "feasible": true,
+            "inside_dtws": [
+              9.46003721678333e-07
+            ],
+            "outside_dtws": [
+              0.057493618780814666,
+              3.992033985372004
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              0.07024467805747378,
+              0.8796217098966038
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.3090655092059366,
+                0.8582154166543802
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.4755394314179619,
+                -1.042396419886804
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.07121651099836815,
+                0.87958241032064
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.7782194583048874,
+                0.5984657334188878
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.7408039112753008,
+                -0.4753656112347796
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.04685493374600167,
+                -1.0868218447942295
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.8768532454521352,
+                -0.8634089935694073
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.4431177079739796,
+                -0.9573551116816564
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.1380828670767789,
+                0.14480454090441947
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 43,
+      "shattered_set": [
+        [
+          0.3090655092059366,
+          0.8582154166543802
+        ],
+        [
+          -0.4755394314179619,
+          -1.042396419886804
+        ],
+        [
+          0.07121651099836815,
+          0.87958241032064
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              175.0659056237831,
+              190.08801891067634,
+              148.1256605771687
+            ],
+            "subset": [],
+            "witness": [
+              0.35606673955416546,
+              -13.13919134604858
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 1.0522882828384383,
+            "feasible": true,
+            "inside_dtws": [
+              0.6877575316934386,
+              1.0522882828068651,
+              1.0522882828384383
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              0.25567415275375205,
+              -0.17599448764313794
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.08648026456894624,
+            "feasible": true,
+            "inside_dtws": [
+              0.08648026456894624,
+              0.08648026456894622
+            ],
+            "outside_dtws": [
+              3.5836468922317377
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.9626576574593211,
+              0.35593560140880076
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.7835428642615346,
+            "feasible": true,
+            "inside_dtws": [
+              0.7835428498351429,
+              0.7835428642615346
+            ],
+            "outside_dtws": [
+              1.4939938001357325
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              0.3389695904764652,
+              -0.4580262578982404
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 2.9340967396671077e-07,
+            "feasible": true,
+            "inside_dtws": [
+              2.9340967396671077e-07
+            ],
+            "outside_dtws": [
+              0.3465105982804502,
+              3.132872222185016
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              1.0463432586500994,
+              0.07349597786746902
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 1.1993596535319386,
+            "feasible": true,
+            "inside_dtws": [
+              1.1993596535319377,
+              1.1993596535319386
+            ],
+            "outside_dtws": [
+              1.1994596535319382
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              -0.048674037162716274,
+              0.057336929023922976
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 9.810147494840394e-09,
+            "feasible": true,
+            "inside_dtws": [
+              9.810147494840394e-09
+            ],
+            "outside_dtws": [
+              0.34597588423073633,
+              4.209556051827822
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              0.8798762836079278,
+              0.6381685475148405
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 9.810049423978795e-09,
+            "feasible": true,
+            "inside_dtws": [
+              9.810049423978795e-09
+            ],
+            "outside_dtws": [
+              3.1345186726365224,
+              4.209556050677692
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              -0.3685279766228278,
+              -0.9901575236001572
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                1.0463971153495268,
+                0.07403496685612601
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.8798062464072244,
+                0.6380985122522047
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.3684579409090875,
+                -0.9900874875506908
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.5429278189233715,
+                0.8772741064201778
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.0412345664868001,
+                0.3740331553163053
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.22992730029967942,
+                -1.0135978037764266
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.4404735320557963,
+                1.017016913711326
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.9566124816037239,
+                -0.5242723407513527
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.7947525494442985,
+                0.36385248554787325
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 44,
+      "shattered_set": [
+        [
+          1.0463971153495268,
+          0.07403496685612601
+        ],
+        [
+          0.8798062464072244,
+          0.6380985122522047
+        ],
+        [
+          -0.3684579409090875,
+          -0.9900874875506908
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              150.64085799565822,
+              166.8942651157494,
+              189.3811019657772
+            ],
+            "subset": [],
+            "witness": [
+              0.17433367717274145,
+              -13.070935546674423
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 0.908169775931815,
+            "feasible": true,
+            "inside_dtws": [
+              0.9081697754328732,
+              0.9081697754328731,
+              0.908169775931815
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              0.07114778861952965,
+              -0.14982077417248485
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.7655839350660462,
+            "feasible": true,
+            "inside_dtws": [
+              0.7655839350660458,
+              0.7655839350660462
+            ],
+            "outside_dtws": [
+              1.511240459650768
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.2096675522671528,
+              -0.5011014531826028
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.8896144232336196,
+            "feasible": true,
+            "inside_dtws": [
+              0.8896144232336196,
+              0.8896144232045367
+            ],
+            "outside_dtws": [
+              1.1391489951837896
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              -0.037757669595593735,
+              -0.06799807784503105
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 3.7576912934972746e-07,
+            "feasible": true,
+            "inside_dtws": [
+              3.7576912934972746e-07
+            ],
+            "outside_dtws": [
+              3.060531578313656,
+              3.5561458494670237
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              -0.603952053772666,
+              -0.8215779400626176
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.24879796761726658,
+            "feasible": true,
+            "inside_dtws": [
+              0.2487979676172664,
+              0.24879796761726658
+            ],
+            "outside_dtws": [
+              3.060075470977587
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              0.7758380301471779,
+              0.2527578003975686
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 7.806062470203893e-09,
+            "feasible": true,
+            "inside_dtws": [
+              7.806062470203893e-09
+            ],
+            "outside_dtws": [
+              3.0620704704935435,
+              0.9952591378643357
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              1.0235913247981245,
+              -0.1801974229917867
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 2.0763154956521034e-19,
+            "feasible": true,
+            "inside_dtws": [
+              2.0763154956521034e-19
+            ],
+            "outside_dtws": [
+              3.558457694079203,
+              0.9951910962131529
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              0.528794738942251,
+              0.6860793665769255
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.6043100776904782,
+                -0.8220755222202802
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                1.0236451822248076,
+                -0.18012738414498522
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.5287947384904683,
+                0.6860793665175628
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.909131416096935,
+                -0.03449357366459109
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.806819051785261,
+                -0.27053155834233483
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.115113310114395,
+                0.0487329948457788
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.2912158040209599,
+                0.8937578281376765
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.4799356508203293,
+                -0.7339786189771453
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.7187209043586157,
+                -0.11295064788139929
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 45,
+      "shattered_set": [
+        [
+          -0.6043100776904782,
+          -0.8220755222202802
+        ],
+        [
+          1.0236451822248076,
+          -0.18012738414498522
+        ],
+        [
+          0.5287947384904683,
+          0.6860793665175628
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              1.9907963510128688,
+              0.8917875649893885,
+              0.46059794370482854
+            ],
+            "subset": [],
+            "witness": [
+              -0.5162444862921906,
+              -0.5162444862921906
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 0.925705864001462,
+            "feasible": true,
+            "inside_dtws": [
+              0.9257058640014599,
+              0.7557413663883005,
+              0.925705864001462
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              -0.2093722038504393,
+              -0.06256983896618439
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.7559623875461561,
+            "feasible": true,
+            "inside_dtws": [
+              0.7559623875461561,
+              0.7559622699122169
+            ],
+            "outside_dtws": [
+              1.264985216223915
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.024980747840537103,
+              0.11019193897472006
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.9525775956768865,
+            "feasible": true,
+            "inside_dtws": [
+              0.952577592238663,
+              0.9525775938682602
+            ],
+            "outside_dtws": [
+              0.9526775956774136
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              -0.3711070901497697,
+              -0.08928230058510753
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 9.811595827655105e-09,
+            "feasible": true,
+            "inside_dtws": [
+              9.811595827655105e-09
+            ],
+            "outside_dtws": [
+              3.024176461792343,
+              3.703133352653365
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              -0.3662265604673136,
+              0.8867760032016343
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.08476128660008839,
+            "feasible": true,
+            "inside_dtws": [
+              0.08476128660008735,
+              0.08476128660008839
+            ],
+            "outside_dtws": [
+              3.278575098592418
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              0.1817546963736282,
+              -0.8390890444697613
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 1.7122037085272347e-08,
+            "feasible": true,
+            "inside_dtws": [
+              1.7122037085272347e-08
+            ],
+            "outside_dtws": [
+              3.0234171838924655,
+              0.3390223684325764
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              0.4160047522721325,
+              -0.666239926772372
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 1.2274582194869802e-23,
+            "feasible": true,
+            "inside_dtws": [
+              1.2274582194869802e-23
+            ],
+            "outside_dtws": [
+              3.702823456003647,
+              0.33904514640363553
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              -0.052587886482683054,
+              -1.0118456375768359
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.36615652122169384,
+                0.8867059596444669
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.41609727922643397,
+                -0.666332451362687
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.052587886479179544,
+                -1.0118456375768359
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.8107655823620237,
+                0.4880065909453023
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.6849443113484155,
+                -0.7764556060369112
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.8211527172935107,
+                -0.002818648519043906
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.22081005513326,
+                1.0049766536457094
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.081733614028712,
+                0.009767708916532504
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.3625092599312107,
+                -0.8652130229318732
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 46,
+      "shattered_set": [
+        [
+          -0.36615652122169384,
+          0.8867059596444669
+        ],
+        [
+          0.41609727922643397,
+          -0.666332451362687
+        ],
+        [
+          -0.052587886479179544,
+          -1.0118456375768359
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              73.10385375655912,
+              72.26597668740919,
+              70.36083369899062
+            ],
+            "subset": [],
+            "witness": [
+              -9.207077112476036,
+              -0.8247269519751492
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 0.09859812710146641,
+            "feasible": true,
+            "inside_dtws": [
+              0.09859812710146638,
+              0.09859812710146633,
+              0.09859812710146641
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              -0.7566920866968998,
+              -0.20667107642195723
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.09638139489085717,
+            "feasible": true,
+            "inside_dtws": [
+              0.09638139489083328,
+              0.0963813948908332
+            ],
+            "outside_dtws": [
+              0.107027569212941
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              -0.7096109600298186,
+              -0.20698686494487592
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.098505880337275,
+            "feasible": true,
+            "inside_dtws": [
+              0.09850587805542153,
+              0.0985058784357308
+            ],
+            "outside_dtws": [
+              0.10065411932859224
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              -0.7661278226540631,
+              -0.2048778271818908
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 3.776909595358273e-07,
+            "feasible": true,
+            "inside_dtws": [
+              3.776909595358273e-07
+            ],
+            "outside_dtws": [
+              0.3847639822779428,
+              0.3932583674047555
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              -0.7075672776479845,
+              0.10284632962268511
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.0031988797138801863,
+            "feasible": true,
+            "inside_dtws": [
+              0.0031988797138801815,
+              0.0031988797138801863
+            ],
+            "outside_dtws": [
+              0.385924237068461
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              -0.7681905014845969,
+              -0.5147994716121224
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 1.195572566271128e-24,
+            "feasible": true,
+            "inside_dtws": [
+              1.195572566271128e-24
+            ],
+            "outside_dtws": [
+              0.38552557956460276,
+              0.012794415225164354
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              -0.7116932266139356,
+              -0.5174334127712945
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 3.7005030427760875e-07,
+            "feasible": true,
+            "inside_dtws": [
+              3.7005030427760875e-07
+            ],
+            "outside_dtws": [
+              0.3947741515716104,
+              0.012789653417099568
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              -0.8247269519751492,
+              -0.5138236554410024
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.7075286934460918,
+                0.10345968288052282
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.7116932266135416,
+                -0.5174334127702745
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.8247269519751492,
+                -0.5132153378395165
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.0889222325273293,
+                0.005698460011524913
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.3761825433226572,
+                1.2177901730078933
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.3075207739458239,
+                0.7827897850536636
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.07414295283384212,
+                1.2025403553013543
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.8348696007991104,
+                0.8605264540984582
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.123110426063539,
+                0.887842527089669
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 47,
+      "shattered_set": [
+        [
+          -0.7075286934460918,
+          0.10345968288052282
+        ],
+        [
+          -0.7116932266135416,
+          -0.5174334127702745
+        ],
+        [
+          -0.8247269519751492,
+          -0.5132153378395165
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              0.5132993058597273,
+              0.6930908792373095,
+              2.322866444003412
+            ],
+            "subset": [],
+            "witness": [
+              0.4693439985611339,
+              0.8417013035116448
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 0.9618649685955512,
+            "feasible": true,
+            "inside_dtws": [
+              0.9618649666337764,
+              0.2883267739367723,
+              0.9618649669607384
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              0.31189817215644505,
+              0.1848689658445994
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.4916543217411363,
+            "feasible": true,
+            "inside_dtws": [
+              0.49165432171818785,
+              0.4916543217411363
+            ],
+            "outside_dtws": [
+              1.6989587090980205
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.3064814210770207,
+              0.5501253242660327
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 1.6941454169157808,
+            "feasible": true,
+            "inside_dtws": [
+              1.6941454169157801,
+              1.6941454169157804
+            ],
+            "outside_dtws": [
+              1.6942454169157806
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              -0.4021160676855445,
+              -0.2867920516472096
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 5.336734280756573e-07,
+            "feasible": true,
+            "inside_dtws": [
+              5.336734280756573e-07
+            ],
+            "outside_dtws": [
+              1.9650063133837818,
+              3.8457937324747116
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              -0.22793728530935242,
+              1.0031658832138972
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.13344155955247677,
+            "feasible": true,
+            "inside_dtws": [
+              0.13344154860691618,
+              0.13344154860691848
+            ],
+            "outside_dtws": [
+              2.773596955290251
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              0.8470468770468033,
+              -0.26819852241479547
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 7.131754968648013e-07,
+            "feasible": true,
+            "inside_dtws": [
+              7.131754968648013e-07
+            ],
+            "outside_dtws": [
+              1.9647928734315188,
+              0.5337993274305909
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              0.8407857186800181,
+              0.09706750328919851
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 2.6504063459659936e-23,
+            "feasible": true,
+            "inside_dtws": [
+              2.6504063459659936e-23
+            ],
+            "outside_dtws": [
+              3.8474598672065667,
+              0.5337661944351776
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              0.8524636627766492,
+              -0.6334548803923562
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.22866731837156978,
+                1.0031928119373204
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.8416301605380987,
+                0.09705783658416914
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.8524636627763165,
+                -0.6334548803872188
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.8913863104412387,
+                0.559209163627954
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.8877626784700167,
+                -0.03215573901014092
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                1.0404306315551983,
+                0.4387147221692947
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.8718585228865566,
+                0.3356162998503494
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.6257973069903384,
+                -0.6452097547428555
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.16300560733895494,
+                -1.0050405931662465
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 48,
+      "shattered_set": [
+        [
+          -0.22866731837156978,
+          1.0031928119373204
+        ],
+        [
+          0.8416301605380987,
+          0.09705783658416914
+        ],
+        [
+          0.8524636627763165,
+          -0.6334548803872188
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              3.5854972351875523,
+              0.6528519022232265,
+              0.17821533405367318
+            ],
+            "subset": [],
+            "witness": [
+              -0.632803096312882,
+              -0.6327193350123576
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 1.02608156293763,
+            "feasible": true,
+            "inside_dtws": [
+              1.0260815629376296,
+              1.0260815629376296,
+              1.02608156293763
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              -0.0017089044293945492,
+              0.025516440460529647
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.6883196807690712,
+            "feasible": true,
+            "inside_dtws": [
+              0.6883196807690712,
+              0.6883196807690711
+            ],
+            "outside_dtws": [
+              2.1013246265612886
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              -0.30855965157276444,
+              0.5180951649084085
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 1.0249146698416158,
+            "feasible": true,
+            "inside_dtws": [
+              1.0249146698416158,
+              1.0249146698416158
+            ],
+            "outside_dtws": [
+              1.084763711728796
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              0.026270810186279536,
+              0.014709346572024546
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 9.810513783884521e-09,
+            "feasible": true,
+            "inside_dtws": [
+              9.810513783884521e-09
+            ],
+            "outside_dtws": [
+              2.7533503164551463,
+              4.0994169271069545
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              0.3952586909599563,
+              0.9574087893082859
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.37094477199118725,
+            "feasible": true,
+            "inside_dtws": [
+              0.37094477199118686,
+              0.37094477199118725
+            ],
+            "outside_dtws": [
+              3.0554828403926892
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              -0.6737641352247825,
+              -0.42556953549881427
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 9.312227775886174e-07,
+            "feasible": true,
+            "inside_dtws": [
+              9.312227775886174e-07
+            ],
+            "outside_dtws": [
+              2.7525753750264164,
+              1.48146998716258
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              -1.0125151023988568,
+              0.0794438004044278
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 7.474827564946819e-07,
+            "feasible": true,
+            "inside_dtws": [
+              7.474827564946819e-07
+            ],
+            "outside_dtws": [
+              4.102908109358839,
+              1.485464159166186
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              -0.3343816338905245,
+              -0.9321336470596181
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.39518865412447923,
+                0.9574788275511268
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -1.013192364157195,
+                0.08013121533609668
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.33433590629217164,
+                -0.9312702863335924
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.9937725156068606,
+                -0.08711315996973515
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                1.0341224556474515,
+                0.46428674953929167
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.8683923148007084,
+                -0.40343206908007867
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.6725688475222038,
+                1.0055542403111595
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.0686651028053633,
+                -0.2966834122442439
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.9177091249414997,
+                0.963036422999545
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 49,
+      "shattered_set": [
+        [
+          0.39518865412447923,
+          0.9574788275511268
+        ],
+        [
+          -1.013192364157195,
+          0.08013121533609668
+        ],
+        [
+          -0.33433590629217164,
+          -0.9312702863335924
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              1.2119499215374911,
+              0.9483504693841458,
+              1.1242538435051408
+            ],
+            "subset": [],
+            "witness": [
+              -0.016960712294038515,
+              -0.016960712294038515
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 1.0703614317341943,
+            "feasible": true,
+            "inside_dtws": [
+              1.0703614317341943,
+              1.0703614317341943,
+              1.006228834281811
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              0.08186244011716523,
+              -0.012190903132237274
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 1.0714808761689616,
+            "feasible": true,
+            "inside_dtws": [
+              1.0714808761689434,
+              1.0714808761689434
+            ],
+            "outside_dtws": [
+              1.0715808761689458
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.057328914802277316,
+              -0.034940668189605006
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.6698112132714058,
+            "feasible": true,
+            "inside_dtws": [
+              0.6698112114384034,
+              0.6698112114384003
+            ],
+            "outside_dtws": [
+              2.2078795307381434
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              0.6865012684364747,
+              0.04162181709483924
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 8.692395099138036e-07,
+            "feasible": true,
+            "inside_dtws": [
+              8.692395099138036e-07
+            ],
+            "outside_dtws": [
+              4.277926312321061,
+              2.6762574410927753
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              0.7850258300422709,
+              -0.7699266130608279
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.3684839508704911,
+            "feasible": true,
+            "inside_dtws": [
+              0.3684839393539676,
+              0.3684839393543941
+            ],
+            "outside_dtws": [
+              3.111862304651045
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              -0.016960738240608734,
+              0.8002410336495951
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 6.998771617822979e-07,
+            "feasible": true,
+            "inside_dtws": [
+              6.998771617822979e-07
+            ],
+            "outside_dtws": [
+              4.280284771547093,
+              1.4720061813053205
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              -0.6208308153891744,
+              0.7467580362666089
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 8.300942116166286e-07,
+            "feasible": true,
+            "inside_dtws": [
+              8.300942116166286e-07
+            ],
+            "outside_dtws": [
+              2.678798171102952,
+              1.4761333620572838
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              0.5885888266087759,
+              0.8540265455987518
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.7853244072621799,
+                -0.7708098407515539
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.6215995541988727,
+                0.7464280092915812
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.5876781296107957,
+                0.8540534749412336
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.12921436949783205,
+                -0.9640821589112016
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.5950246639407147,
+                0.0021726605916319005
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.0209694677667474,
+                -0.19196463476580028
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.16362092227106684,
+                -0.8962621058005046
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.12254669981315551,
+                -0.8734398201165905
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.7861691995776833,
+                -0.6926350490808034
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 50,
+      "shattered_set": [
+        [
+          0.7853244072621799,
+          -0.7708098407515539
+        ],
+        [
+          -0.6215995541988727,
+          0.7464280092915812
+        ],
+        [
+          0.5876781296107957,
+          0.8540534749412336
+        ]
+      ]
+    },
+    {
+      "T": 5,
+      "final_report": {
+        "failed_subsets": [],
+        "is_shattered": true,
+        "num_feasible": 8,
+        "num_infeasible": 0,
+        "num_subsets": 8,
+        "results": {
+          "frozenset()": {
+            "delta": 0.0,
+            "feasible": true,
+            "inside_dtws": [],
+            "outside_dtws": [
+              3.3806937311787317,
+              1.2938037691725337,
+              0.47635541599840814
+            ],
+            "subset": [],
+            "witness": [
+              0.29958511527713927,
+              0.8084257634637518
+            ]
+          },
+          "frozenset({0, 1, 2})": {
+            "delta": 0.8643530956662909,
+            "feasible": true,
+            "inside_dtws": [
+              0.8643530956662907,
+              0.8643530956662905,
+              0.8643530956662909
+            ],
+            "outside_dtws": [],
+            "subset": [
+              0,
+              1,
+              2
+            ],
+            "witness": [
+              -0.1022060571530923,
+              -0.020385363711890918
+            ]
+          },
+          "frozenset({0, 1})": {
+            "delta": 0.6302090894469067,
+            "feasible": true,
+            "inside_dtws": [
+              0.6302090876099486,
+              0.6302090876099483
+            ],
+            "outside_dtws": [
+              1.9978253463214686
+            ],
+            "subset": [
+              0,
+              1
+            ],
+            "witness": [
+              0.06058178646130428,
+              -0.47606521407584906
+            ]
+          },
+          "frozenset({0, 2})": {
+            "delta": 0.6681751916822033,
+            "feasible": true,
+            "inside_dtws": [
+              0.6681751916822033,
+              0.6681751916822033
+            ],
+            "outside_dtws": [
+              1.8811591976657964
+            ],
+            "subset": [
+              0,
+              2
+            ],
+            "witness": [
+              -0.5366804195828143,
+              0.06034504337209342
+            ]
+          },
+          "frozenset({0})": {
+            "delta": 1.0805919052426855e-19,
+            "feasible": true,
+            "inside_dtws": [
+              1.0805919052426855e-19
+            ],
+            "outside_dtws": [
+              2.5208363496807733,
+              2.672696687730601
+            ],
+            "subset": [
+              0
+            ],
+            "witness": [
+              -0.6870033039826052,
+              -0.7431337816318423
+            ]
+          },
+          "frozenset({1, 2})": {
+            "delta": 0.6458430469297604,
+            "feasible": true,
+            "inside_dtws": [
+              0.6458430449530738,
+              0.6458430452354573
+            ],
+            "outside_dtws": [
+              1.950923473860212
+            ],
+            "subset": [
+              1,
+              2
+            ],
+            "witness": [
+              0.20991180875554502,
+              0.32759809617185626
+            ]
+          },
+          "frozenset({1})": {
+            "delta": 2.375337133116129e-22,
+            "feasible": true,
+            "inside_dtws": [
+              2.375337133116129e-22
+            ],
+            "outside_dtws": [
+              2.5208363504238127,
+              2.5833721804105267
+            ],
+            "subset": [
+              1
+            ],
+            "witness": [
+              0.8081668772063878,
+              -0.20899664666735904
+            ]
+          },
+          "frozenset({2})": {
+            "delta": 2.3010611619603678e-07,
+            "feasible": true,
+            "inside_dtws": [
+              2.3010611619603678e-07
+            ],
+            "outside_dtws": [
+              2.672896427870562,
+              2.5821685032123707
+            ],
+            "subset": [
+              2
+            ],
+            "witness": [
+              -0.38786432253852393,
+              0.8641659097436356
+            ]
+          }
+        }
+      },
+      "history": [
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.6870033042836197,
+                -0.7431337814997457
+              ]
+            }
+          ],
+          "d": 1,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                0.8081668772062264,
+                -0.20899664665194775
+              ]
+            }
+          ],
+          "d": 2,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": true,
+              "num_failed_subsets": 0,
+              "point": [
+                -0.3883432598259253,
+                0.8641928391129678
+              ]
+            }
+          ],
+          "d": 3,
+          "success": true
+        },
+        {
+          "attempts": [
+            {
+              "attempt": 1,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -1.0122501691746535,
+                -0.258521378156726
+              ]
+            },
+            {
+              "attempt": 2,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.1479342922301671,
+                0.9599585911009975
+              ]
+            },
+            {
+              "attempt": 3,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.7463769794571,
+                0.7286135331952812
+              ]
+            },
+            {
+              "attempt": 4,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.3413458307179065,
+                -0.7726091879535446
+              ]
+            },
+            {
+              "attempt": 5,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                0.6542480094601882,
+                -0.6281515305927943
+              ]
+            },
+            {
+              "attempt": 6,
+              "is_shattered": false,
+              "num_failed_subsets": 1,
+              "point": [
+                -0.6520859951758644,
+                0.8208562763008039
+              ]
+            }
+          ],
+          "d": 4,
+          "success": false
+        }
+      ],
+      "k": 2,
+      "m": 2,
+      "s_max": 3,
+      "sampler": "sphere-gaussian",
+      "sampler_params": {
+        "radial_std": 0.15
+      },
+      "seed": 51,
+      "shattered_set": [
+        [
+          -0.6870033042836197,
+          -0.7431337814997457
+        ],
+        [
+          0.8081668772062264,
+          -0.20899664665194775
+        ],
+        [
+          -0.3883432598259253,
+          0.8641928391129678
+        ]
+      ]
+    }
+  ],
+  "s_max": 3,
+  "sampler": "sphere-gaussian",
+  "sampler_params": {
+    "radial_std": 0.15
+  },
+  "seed": 42,
+  "shattered_set": [
+    [
+      0.3128323241608392,
+      -1.0676810282762499
+    ],
+    [
+      0.3494348082911523,
+      -0.7248407209366099
+    ],
+    [
+      0.37383874269001655,
+      -0.9247759720536451
+    ]
+  ]
+}
