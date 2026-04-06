@@ -177,9 +177,9 @@ Shattering capacity grows linearly in $k$ (verified by QP):
 | $k$ | Capacity | Theory lower bound |
 |-----|----------|--------------------|
 | 2 | 3 | 1 |
-| 3 | 4 | 2 |
-| 4 | 5 | 3 |
-| 5 | 6 | 4 |
+| 3 | 5 | 2 |
+| 4 | 6 | 3 |
+| 5 | 7 | 4 |
 | 7 | 9 | 6 |
 
 ### Fixed centre length $k = 2$
@@ -197,7 +197,7 @@ Capacity stagnates near 5 for tested values of $m$ (theory: $\Theta(\log m)$):
 | 1 | 1 | 1 |
 | 2 | 4 | 4 |
 | 3 | 6 | 6 |
-| 4 | 8 | 8 |
+| 4 | 8 | 6 |
 | 5–9 | — | ~$2k$ |
 
 ---
